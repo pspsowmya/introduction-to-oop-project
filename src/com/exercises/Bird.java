@@ -5,14 +5,14 @@ public abstract class Bird implements Dance {
     protected String name;
     protected String color;
 
-    public Bird(String name, String color){
+    public Bird(String name, String color) {
         this.name = name;
         this.color = color;
     }
 
     public abstract void speak();
 
-    public void fly(){
+    public void fly() {
         System.out.println("Hi there! I can fly.");
     }
 

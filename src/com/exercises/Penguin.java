@@ -1,6 +1,6 @@
 package com.exercises;
 
-public class Penguin extends Bird{
+public class Penguin extends Bird {
 
     public Penguin(String name, String color) {
         super(name, color);
